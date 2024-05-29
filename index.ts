@@ -2,8 +2,11 @@
 import inquirer from "inquirer";
 
 //Intialize user balance andpin code
+
 let myBlalnce = 500000; //Doller
 let myPin = 9876;
+
+//Print wellcome message
 
 console.log("\n\t Wellcome to S-Z  ATM Machine\n")
   let pinAnswer = await inquirer.prompt(
